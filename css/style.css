@@ -48,8 +48,9 @@ h2 {
     border-radius: 5px;
     box-shadow: 3px 3px 10px #00000051 inset;
 
+    box-sizing: border-box;
     display: block;
-    height: 30px;
+    height: 35px;
     min-width: 100px;
 }
 
