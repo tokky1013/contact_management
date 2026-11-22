@@ -3,17 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>コンタクト管理</title>
 </head>
 <body>
+    <h2>コンタクト管理</h2>
+    <div class="item-container">
+        <div>使用開始日</div>
+        <input type="date">
+    </div>
+    <div class="item-container">
+        <div>使用期間</div>
+        <select name="" id="">
+            <option value="1">1day</option>
+            <option value="14" selected>2week</option>
+            <option value="30">1month</option>
+        </select>
+    </div>
+    <button class="add-btn">追加</button>
     <table>
         <tr>
-            <th>a</th>
-            <th>a</th>
+            <th>使用開始日</th>
+            <th>使用期間</th>
         </tr>
-        <tr>
-            <td>b</td>
-            <td>b</td>
+        <tr class="is-valid">
+            <td>2026/11/22</td>
+            <td>1day</td>
+        </tr>
+        <tr class="is-due-today">
+            <td>2025/1/1</td>
+            <td>2week</td>
+        </tr>
+        <tr class="is-expired">
+            <td>2024/11/2</td>
+            <td>1month</td>
         </tr>
     </table>
 </body>
