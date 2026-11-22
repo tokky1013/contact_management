@@ -8,19 +8,22 @@
 </head>
 <body>
     <h2>コンタクト管理</h2>
-    <div class="item-container">
-        <div>使用開始日</div>
-        <input type="date">
+    <div class="input-container">
+        <div class="input-title">コンタクトの追加</div>
+        <div class="item-container">
+            <div>使用開始日</div>
+            <input type="date">
+        </div>
+        <div class="item-container">
+            <div>使用期間</div>
+            <select name="" id="">
+                <option value="1">1day</option>
+                <option value="14" selected>2week</option>
+                <option value="30">1month</option>
+            </select>
+        </div>
+        <button class="add-btn">追加</button>
     </div>
-    <div class="item-container">
-        <div>使用期間</div>
-        <select name="" id="">
-            <option value="1">1day</option>
-            <option value="14" selected>2week</option>
-            <option value="30">1month</option>
-        </select>
-    </div>
-    <button class="add-btn">追加</button>
     <table>
         <tr>
             <th>使用開始日</th>
