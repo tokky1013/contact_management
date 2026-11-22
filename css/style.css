@@ -57,7 +57,7 @@ h2 {
 
 .add-btn {
     display: block;
-    margin: 0 auto 20px;
+    margin: 0 auto 5px;
     background: linear-gradient(45deg, #2d2dcf, #789ce9);
     border: none;
     font-size: large;
@@ -82,7 +82,7 @@ table tr:hover{
 
 table th,
 table td {
-    min-width: 50%;
+    min-width: calc(100% / 3);
     height: 40px;
     padding: 0 10px;
 }
